@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #FFD580;
+    padding: 20px
+}
+
+.logo {
+    background-color: #FFC04D;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.texto {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.barra {
+    background-color: #FFB347;
+    width: 100px;
+    height: 10px;
+    margin-bottom:10px;
+}
+
+.linea {
+    width: 250px;
+    height: 6px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+.linea corta{
+    width: 150px;
+}
+
+.cuadrados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    background-color: white;
+}
