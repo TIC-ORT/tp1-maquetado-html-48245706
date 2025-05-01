@@ -1,90 +1,86 @@
 body {
     margin: 0;
     font-family: sans-serif;
-}
-
-header {
-    background-color: #fdd47c;
+    
+  }
+  
+  header {
+    background-color: #fcd276;
     display: flex;
     align-items: center;
-    padding: 20px
-}
-
-.logo {
-    background-color: #FFC04D;
-    width: 80px;
-    height: 80px;
+    padding: 40px;
+  }
+  
+  .logo {
+    width: 120px;
+    height: 120px;
+    background-color: #ffbe3d;
     margin-right: 20px;
-}
-
-.texto {
-    display: flex;
-    flex-direction: column;
-    margin-right: 20px;
-}
-
-.barra {
-    background-color: #FFB347;
-    width: 100px;
-    height: 8px;
-}
-
-.linea {
-    width: 300px;
-    height: 8px;
+  }
+  
+  .linea {
+    width: 400px;
+    height: 10px;
     background-color: white;
     margin: 10px 0;
-}
-
-.linea corta{
-    width: 150px;
-    height: 6px;
+  }
+  
+  .barra {
+    width: 400px;
+    height: 15px;
+    background-color: #f6b556;
+  }
+  
+  .linea.corta {
+    width: 80px;
     background-color: white;
-}
-
-.cuadrado{
+  }
+  
+  .cuadrados {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    grid-template-columns: repeat(3, 180px);
+    gap: 130px;
+    justify-content: center;
     padding: 40px;
-    justify-items: center;
-}
+  }
+  
+  .cuadrado {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mini-celeste,
+  .mini-naranja,
+  .mini-amarillo {
+    width: 80px;
+    height: 80px;
+  }
+ 
+  .cuadrado.celeste{
+    background-color: #b6edf6;
+    border-top: 10px solid #2597a8; 
+  }
 
-.cuadrados {
- width: 100px;
- height: 100px;
- display: flex ;
- justify-content: center;
- align-items: center;
-}
+  .mini-celeste{
+    background-color: #2597a8;
+  }
 
-.cuadrado.celeste{
-    background-color: #b2ebf2;
-}
-
-.cuadrado.naranja{
-    background-color: #FFAB91;
-}
-
-.cuadrado.amarillo{
-    background-color: #FFE082;
-}
-
-.mini{
-    width: 40px;
-    height: 40px;
-    margin: 30px;
-    display: inline-block;
-}
-
-.mini.celeste{
-    background-color: #4DD0E1;
-}
-
-.mini.naranja{
-    background-color: #FF7043;
-}
-
-.mini.amarillo{
-    background-color: #FFCA28;
-}
+  .cuadrado.naranja {
+    background-color: #f7a585;
+    border-top: 10px solid #e08060;
+  }
+  .mini-naranja {
+    background-color: #e08060;
+  }
+  
+  .cuadrado.amarillo {
+    background-color: #fcdc88;
+    border-top: 10px solid #f6c266;
+  }
+  .mini-amarillo {
+    background-color: #f6c266;
+  }
+  
