@@ -4,7 +4,9 @@ body {
 }
 
 header {
-    background-color: #FFD580;
+    background-color: #fdd47c;
+    display: flex;
+    align-items: center;
     padding: 20px
 }
 
@@ -12,44 +14,48 @@ header {
     background-color: #FFC04D;
     width: 80px;
     height: 80px;
-    display: inline-block;
     margin-right: 20px;
 }
 
 .texto {
-    display: inline-block;
-    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
 }
 
 .barra {
     background-color: #FFB347;
     width: 100px;
-    height: 10px;
-    margin-bottom:10px;
+    height: 8px;
 }
 
 .linea {
     width: 300px;
-    height: 6px;
+    height: 8px;
     background-color: white;
     margin: 10px 0;
 }
 
 .linea corta{
     width: 150px;
+    height: 6px;
+    background-color: white;
 }
 
-.cuadrados{
-    text-align: center;
-    padding: 30px;
+.cuadrado{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 40px;
+    justify-items: center;
 }
 
-.cuadrado {
+.cuadrados {
  width: 100px;
  height: 100px;
- display: inline-block;
- margin: 10px;
- position: relative;
+ display: flex ;
+ justify-content: center;
+ align-items: center;
 }
 
 .cuadrado.celeste{
@@ -62,4 +68,23 @@ header {
 
 .cuadrado.amarillo{
     background-color: #FFE082;
+}
+
+.mini{
+    width: 40px;
+    height: 40px;
+    margin: 30px;
+    display: inline-block;
+}
+
+.mini.celeste{
+    background-color: #4DD0E1;
+}
+
+.mini.naranja{
+    background-color: #FF7043;
+}
+
+.mini.amarillo{
+    background-color: #FFCA28;
 }
