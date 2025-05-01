@@ -29,21 +29,37 @@ header {
 }
 
 .linea {
-    width: 250px;
+    width: 300px;
     height: 6px;
     background-color: white;
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 .linea corta{
     width: 150px;
 }
 
-.cuadrados {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 40px;
-    background-color: white;
+.cuadrados{
+    text-align: center;
+    padding: 30px;
+}
+
+.cuadrado {
+ width: 100px;
+ height: 100px;
+ display: inline-block;
+ margin: 10px;
+ position: relative;
+}
+
+.cuadrado.celeste{
+    background-color: #b2ebf2;
+}
+
+.cuadrado.naranja{
+    background-color: #FFAB91;
+}
+
+.cuadrado.amarillo{
+    background-color: #FFE082;
 }
